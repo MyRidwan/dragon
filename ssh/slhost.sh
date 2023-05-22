@@ -21,10 +21,10 @@ echo "$SUB_DOMAIN" >> /etc/v2ray/domain
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 subsl=$(</dev/urandom tr -dc a-x0-9 | head -c5)
 DOMAIN=autosc.me
-SUB_DOMAIN=vpn-${sub}.ndra.sbs
-NS_DOMAIN=ns-${subsl}.ndra.sbs
-CF_ID=hendrawahyut@gmail.com
-CF_KEY=e96bcf4fff7588b0fc92d5825c07fe7597c10
+SUB_DOMAIN=vpn-${sub}.rstore-vpn.cloud
+NS_DOMAIN=ns-${subsl}.rstore-vpn.cloud
+CF_ID=ridwanstoreaws@gmail.com
+CF_KEY=4ecfe9035f4e6e60829e519bd5ee17d66954f
 #DOMAIN=hwt.mobi
 #SUB_DOMAIN=${sub}.hwt.mobi
 #NS_DOMAIN=${sub}.hwt.mobi
